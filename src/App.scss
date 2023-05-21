@@ -18,8 +18,11 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
   width: 80px;
 }
 header {
+  padding: 40px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(175, 175, 175, 0.947);
   .headerLeft {
     display: flex;
     align-items:center;
@@ -36,4 +39,7 @@ header {
   li {
     margin-right: 30px;
   }
+}
+.content {
+  padding: 40px;
 }

@@ -11,7 +11,7 @@ function App() {
         <div className='headerLeft'>
           <img src='/logo192.png' alt='logo' id='logoimg'/>
           <div className='headerInfo'>
-            <h3> React trousers</h3>
+            <h3 className='text-uppercase'> React trousers</h3>
             <p> Магазин лучших штанов</p>
 
           </div>
