@@ -1,0 +1,32 @@
+.count-button {
+    border-radius:30%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color:crimson;
+    color: white;
+}
+.count-button:hover {
+  opacity: calc(50%);
+
+}
+
+.item-count {
+    font-size: large;
+    margin: 10px;
+}
+ 
+.add-to-basket-button {
+    margin-left: 10px;
+    border-radius:5%;
+    border: none;
+    width: 100px;
+    height: 30px;
+    background-color:crimson;
+    color: white;
+}
+.add-to-basket-button:hover {
+  opacity: calc(50%);
+
+}
+  

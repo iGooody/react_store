@@ -6,23 +6,6 @@ import ShoppingCart from './components/ShoppingCart';
 
 
 function App() {
-
-  const products = [
-    { brand: 'SIMPLE', price: "79,99zł", title:"Spodnie - Beżowy", id:Date.now() },
-    { brand: 'GUESS', price: "99,99zł", title:"Spodnie - Camel", id: Date.now() },
-    { brand: 'TOKYO LAUNDRY', price: "144,40zł", title:"Spodenki - Niebieski ciemny", id: Date.now()},
-  ];
-  const [count, setCount] = useState(0);
-  const addCountHandler = () => {
-    setCount(+count + 1);
-  };
-  const removeCountHandler = () => {
-    if(count === 0){
-      return;  
-    }
-    setCount(+count - 1);
-  };
-
   const iconSize = '18px';
   return (
     <div className="wrapper">
@@ -48,9 +31,6 @@ function App() {
       <div className='content'>
         <h1>Все штаны</h1>
         <ShoppingCart/>
-        <p>{count}</p>
-        <button onClick={addCountHandler}>+</button>
-        <button onClick={removeCountHandler}>-</button>
       </div>
     </div>
   );
