@@ -2,56 +2,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Add other styles as needed */
+
   }
   
 .cart-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* Add other styles as needed */
 }
   
 .cart-item {
     list-style-type: none;
     height: 500px;
-    width: 300px; /* Adjust width as desired */
-    margin: 10px; /* Adjust margin as desired */
-    /* Add other styles as needed */
+    width: 300px; 
+    margin: 10px; 
 }
 .cart-item img {
+    border: none;
     height: 300px;
     width: 200px;
 }
-.count-button {
-    border-radius:30%;
-    border: none;
-    width: 30px;
-    height: 30px;
-    background-color:crimson;
-    color: white;
+.cart-item img:hover{
+   transform: translate(-0px, -10px);
+  opacity: 80%;
 }
-.count-button:hover {
-  opacity: calc(50%);
-
+.price {
+  color:red;
+  font-weight: 100;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-.item-count {
-    font-size: large;
-    margin: 10px;
-}
- 
-.add-to-basket-button {
-    margin-left: 10px;
-    border-radius:5%;
-    border: none;
-    width: 100px;
-    height: 30px;
-    background-color:crimson;
-    color: white;
-}
-.add-to-basket-button:hover {
-  opacity: calc(50%);
-
-}
-  
