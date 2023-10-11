@@ -55,6 +55,7 @@
   flex-direction: row;
 }
 .sex-category button {
+  cursor: pointer;
   margin-left: 15px;
   background-color: bisque;
   border: none;
@@ -71,5 +72,6 @@
 }
 .basket-btns button{
   background-color: bisque;
-  border: none
+  border: none;
+  cursor: pointer;
 }

@@ -1,14 +1,14 @@
 .count-button {
-    border-radius:30%;
+    border-radius: 999px;
     border: none;
-    width: 30px;
+    width: 50px;
     height: 30px;
     background-color:crimson;
     color: white;
+    cursor: pointer;
 }
 .count-button:hover {
   opacity: calc(50%);
-
 }
 
 .item-count {
@@ -17,8 +17,10 @@
 }
  
 .add-to-basket-button {
-    margin-left: 10px;
-    border-radius: 15%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 999px;
     border: none;
     width: 100px;
     height: 30px;

@@ -4,6 +4,8 @@ import cult from "../images/CULT.png"
 import spodnie1 from "../images/spodnie1.png"
 import guani from "../images/guani.png"
 import black from "../images/black.png"
+import jeans from "../images/jeans.png"
+import olive from "../images/olive.png"
 
 export const shoppingItems = [
     {
@@ -47,5 +49,19 @@ export const shoppingItems = [
       brandTitle: 'Black',
       title: 'Sport trousers',
       price: '$120.99',
+    },
+    {
+      id: 7,
+      image: jeans,
+      brandTitle: 'H&M',
+      title: 'Best jeans',
+      price: '$139.99',
+    },
+    {
+      id: 8,
+      image: olive,
+      brandTitle: 'Zara',
+      title: 'Dayly one dress',
+      price: '$35.99',
     },
   ];

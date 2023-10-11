@@ -12,6 +12,7 @@
 }
   
 .cart-item {
+    border: none;
     list-style-type: none;
     height: 500px;
     width: 300px; 
